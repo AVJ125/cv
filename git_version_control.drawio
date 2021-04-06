@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-06T03:17:22.892Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="pnNtvS50599hVS4a4-lH" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-06T03:22:15.232Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="tuOegX50lnZn8pKgCP_q" version="14.5.7" type="github">
   <diagram id="2DQWzsFpLPsIe5vMjnt6" name="Page-1">
     <mxGraphModel dx="2568" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -178,7 +178,7 @@
         </mxCell>
         <mxCell id="xdMVu-1ozZl_Vfi0Khe5-5" value="" style="endArrow=none;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1380" y="560" as="sourcePoint" />
+            <mxPoint x="-1380" y="830" as="sourcePoint" />
             <mxPoint x="-1380" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -209,8 +209,29 @@
             <mxPoint x="-1280" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xdMVu-1ozZl_Vfi0Khe5-18" value="&lt;b&gt;git branch&lt;/b&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;gradientColor=#ffd966;" vertex="1" parent="1">
-          <mxGeometry x="-1700" y="480" width="220" height="20" as="geometry" />
+        <mxCell id="xdMVu-1ozZl_Vfi0Khe5-18" value="&lt;b&gt;git branch (branch_name)&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="-1700" y="480" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xdMVu-1ozZl_Vfi0Khe5-19" value="&lt;font color=&quot;#000000&quot;&gt;This creates a new branch with files already existing in the main branch&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="-1700" y="500" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xdMVu-1ozZl_Vfi0Khe5-20" value="&lt;b&gt;git branch&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="-1700" y="550" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xdMVu-1ozZl_Vfi0Khe5-21" value="&lt;font color=&quot;#000000&quot;&gt;To see all the existing branches&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="-1700" y="570" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xdMVu-1ozZl_Vfi0Khe5-22" value="&lt;b&gt;git checkout (branch_name)&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="-1700" y="620" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xdMVu-1ozZl_Vfi0Khe5-23" value="&lt;font color=&quot;#000000&quot;&gt;To switch to a branch&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="-1700" y="640" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xdMVu-1ozZl_Vfi0Khe5-24" value="&lt;font color=&quot;#000000&quot;&gt;Merges the master branch and the side branch together&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="-1700" y="700" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xdMVu-1ozZl_Vfi0Khe5-25" value="&lt;b&gt;git merge (branch_name)&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="-1700" y="680" width="320" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
